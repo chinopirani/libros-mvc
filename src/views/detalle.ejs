@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('./partials/head')  %>
+<body>
+    
+    <%- include('./partials/titulo') %>
+
+    <h1 align="center">Detalle de libro</h1>
+
+
+    <div class="card">
+        <img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-three-books-a-stack-of-books-png-free-image_1181753.jpg"
+            alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b><%= libro.nombre%></b></h4>
+            <p><%= libro.autor%></p>
+            <a href="/home">volver..</a>
+        </div>
+    </div>
+
+
+    <%- include('./partials/footer') %>
+
+</body>
+
+</html>
